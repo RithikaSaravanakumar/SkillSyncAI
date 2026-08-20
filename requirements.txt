@@ -1,0 +1,7 @@
+Flask
+python-dotenv
+google-generativeai
+pdfplumber
+pdf2image
+pytesseract
+Werkzeug
