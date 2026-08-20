@@ -703,5 +703,6 @@ def get_ranking_candidate(job_id, candidate_id):
     return jsonify({"candidate": {**_candidate_payload(candidate), "rank": rank}, "job": _job_payload(job)})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
 

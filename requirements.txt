@@ -5,3 +5,4 @@ pdfplumber
 pdf2image
 pytesseract
 Werkzeug
+gunicorn
